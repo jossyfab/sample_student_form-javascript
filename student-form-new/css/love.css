@@ -1,0 +1,113 @@
+.box_container {
+  border: 15px solid coral;
+  margin: auto;
+  max-width: 80%;
+  padding: 10px;
+}
+.student_registration {
+  text-align: left;
+}
+.form-header {
+  display: flex;
+}
+
+.form-paragraph {
+  text-align: left;
+}
+.btn {
+  background-color: #0cadef;
+  padding: 5px;
+  width: 100%;
+  display: inline-block;
+  border-radius: 2px;
+  color: white;
+  border: 0;
+}
+.you {
+  padding: 0 30px 20px;
+  display: inline-block;
+}
+
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.heading {
+  font-weight: normal;
+}
+
+.input {
+  border: 1px solid grey;
+  padding: 5px;
+  background-color: transparent;
+}
+
+.input-container input {
+  margin-bottom: 15px;
+}
+
+.basic-info-one,
+.basic-info-two {
+  justify-content: space-between;
+}
+
+.basic-info-two input {
+  width: 47%;
+}
+
+.basic-info-one input {
+  width: 30%;
+}
+
+.basic-info-three,
+.basic-info-four{
+  justify-content: space-between;
+}
+.basic-info-three input{
+  width: 100%;
+}
+.basic-info-four input{
+  width: 48%;
+  
+}
+
+.basic-info-five{
+  justify-content: space-between;
+}
+.basic-info-five input{
+  width: 48%;
+  
+}
+
+.basic-info-six input{
+  width: 100%;
+  text-align: left;
+}
+.basic-info-six input{
+  margin-bottom: 0%;
+}
+.basic-info-seven{
+  margin-bottom: 5%;
+}
+#course{
+  width: 10%;
+}
+#level{
+  width: 15%;
+}
+#language{
+  width: 15%;
+}
+#date{
+  width: 20%;
+}
+#me{
+  width: 40%;
+}
+#comment {
+  padding: 10px;
+  width: 98%;
+}
+span{
+  color:red;
+}

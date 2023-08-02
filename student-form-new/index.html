@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/love.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="box_container">
+      <div class="form-header">
+        <a href="" class="you">
+          <img src="images/joe.jpg" id="logo" width="100" height="80" />
+        </a>
+
+        <div class="student_registration">
+          <h1>Student Registration Form</h1>
+          <p class="form-paragraph">
+            Fill out the form to apply for the training courses. You can
+            consider your application accepted after you receive a confirmation
+            email.
+          </p>
+        </div>
+      </div>
+
+      <form id="form">
+        <div class="student_Information">
+          <h2 class="heading">Student Information</h2>
+          <div class="input-container basic-info-one">
+            <input
+              type="text"
+              id="first_name"
+              placeholder="First Name"
+              
+              class="input"
+            />
+            <input
+              type="text"
+              id="middle_name"
+              placeholder="Middle Name"
+              
+              class="input"
+            />
+            <input
+              type="text"
+              id="last_name"
+              placeholder="Last Name"
+              
+              class="input"
+            />
+          </div>
+          <div class="input-container basic-info-two">
+            <input
+              type="date"
+              id="date_birth"
+              placeholder="Date of Birth"
+              
+              class="input"
+            />
+            <input
+              type="text"
+              id="student_id"
+              placeholder="Student Id"
+            
+              class="input"
+            />
+          </div>
+        </div>
+
+        <div class="address">
+          <h2 class="heading">Address</h2>
+          <div class="input-container basic-info-three">
+            <input
+              type="text"
+              name="street Address"
+              id="street_address"
+              placeholder="Street Address"
+               class="input"
+
+            />
+          </div> 
+          <div class="input-container basic-info-four">
+            <input
+              type="text"
+              name="city"
+              id="city"
+              placeholder="city"
+               class="input"
+            />
+            <input
+              type="text"
+              name="State/Province"
+              id="state_province"
+              placeholder="state / province"
+              class="input"
+            />
+            <input
+              type="text"
+              name="Country"
+              id="country"
+              placeholder="Country"
+               class="input"
+            />
+            <input
+              type="text"
+              name="zip-code"
+              id="zip_code"
+              placeholder="Zip Code"
+               class="input"
+            />
+          </div>
+        </div>
+
+        <div class="contact_information">
+          <h2 class="heading">Contact Information</h2>
+            <div class="input-container basic-info-five">
+            <input type="email" name="Email" id="email" placeholder="Email"  class="input"/>
+            <input type="text" class="input"/>
+          </div>
+        </div>
+
+        <div class="courses">
+          <h2 class="heading">Courses <span>*</span></h2>
+          <div class="input-container basic-info-six">
+            <input type="button" value="+ Add new record" class="input"/>
+          </div>
+          <div class="input-container basic-info-seven">
+            <select name="Course" id="course" class="input">
+              <option value="">course</option>
+            </select>
+
+            <select name="Level" id="level" class="input">
+              <option value="">Level</option>
+            </select>
+
+            <select name="Language" id="language" class="input">
+              <option value="" >Language</option>
+            </select>
+
+            <select name="Start Date" id="date"  class="input" >
+              <option value="">Start Date</option>
+            </select>
+
+             <select name="" id="me" >
+              <option value="" class="input"></option>
+            </select>
+          </div>
+        </div>
+        <br />
+        <br />
+
+        <span>
+          <div class="comments">
+            <textarea
+              type="text"
+              id="comment"
+              placeholder="Comments"
+              rows="5"
+            ></textarea>
+          </div>
+        </span>
+        <br />
+        <br />
+
+        <div>
+          <input type="submit" value="Send Request" class="btn" />
+        </div>
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
